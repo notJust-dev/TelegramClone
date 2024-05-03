@@ -13,7 +13,6 @@ export default function ChatProvider({ children }: PropsWithChildren) {
   const { profile } = useAuth();
 
   useEffect(() => {
-    console.log('USE EFFECT: ', profile);
     if (!profile) {
       return;
     }
@@ -29,11 +28,6 @@ export default function ChatProvider({ children }: PropsWithChildren) {
         tokenProvider
       );
       setIsReady(true);
-
-      // const channel = client.channel('messaging', 'the_park', {
-      //   name: 'The Park',
-      // });
-      // await channel.watch();
     };
 
     connect();
