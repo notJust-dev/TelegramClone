@@ -7,6 +7,7 @@ import {
 } from 'react';
 import { Session, User } from '@supabase/supabase-js';
 import { supabase } from '../lib/supabase';
+import { tokenProvider } from '../utils/tokenProvider';
 
 type AuthContext = {
   session: Session | null;

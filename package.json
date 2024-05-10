@@ -9,6 +9,7 @@
     "web": "expo start --web"
   },
   "dependencies": {
+    "@config-plugins/react-native-callkeep": "^7.0.0",
     "@config-plugins/react-native-webrtc": "^9.0.0",
     "@notifee/react-native": "^7.8.2",
     "@react-native-async-storage/async-storage": "1.21.0",
@@ -38,6 +39,7 @@
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
     "react-native": "0.73.6",
+    "react-native-callkeep": "^4.3.13",
     "react-native-elements": "^3.4.3",
     "react-native-gesture-handler": "~2.14.0",
     "react-native-incall-manager": "^4.2.0",
@@ -46,8 +48,10 @@
     "react-native-screens": "~3.29.0",
     "react-native-svg": "14.1.0",
     "react-native-url-polyfill": "^2.0.0",
+    "react-native-voip-push-notification": "^3.3.2",
     "stream-chat-expo": "^5.29.0",
-    "typescript": "^5.3.0"
+    "typescript": "^5.3.0",
+    "expo-notifications": "~0.27.7"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
