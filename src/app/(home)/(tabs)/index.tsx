@@ -8,7 +8,7 @@ export default function MainTabScreen() {
   return (
     <>
       {/* Delete later */}
-      <Redirect href={'/(home)/call'} />
+      {/* <Redirect href={'/(home)/call'} /> */}
       <Stack.Screen
         options={{
           headerRight: () => (
